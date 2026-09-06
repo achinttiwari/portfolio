@@ -78,7 +78,7 @@ export default function Contact() {
         {/* Contact Methods */}
         <div className="mb-12 space-y-6">
           <p className="text-gray-700 text-center mb-8">
-            Let's connect! Feel free to reach out through any of these channels:
+            Let&apos;s connect! Feel free to reach out through any of these channels:
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
