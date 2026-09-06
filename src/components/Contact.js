@@ -57,7 +57,7 @@ export default function Contact() {
       );
 
       if (response.status === 200) {
-        setStatus('Message sent successfully! I'll get back to you soon.');
+        setStatus('Message sent successfully! I\'ll get back to you soon.');
         setFormData({ name: '', email: '', message: '' });
         setTimeout(() => setStatus(''), 5000);
       }
