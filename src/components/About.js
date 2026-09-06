@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function About() {
@@ -9,12 +10,14 @@ export default function About() {
         <h2 className="text-3xl sm:text-4xl font-bold text-black mb-12 text-center">About</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Image Placeholder */}
+          {/* Professional Headshot */}
           <div className="flex justify-center">
-            <div className="w-full max-w-sm aspect-square bg-gray-200 rounded-lg flex items-center justify-center border-2 border-gray-300">
-              <p className="text-gray-500 text-center px-4">
-                Professional headshot will be displayed here
-              </p>
+            <div className="w-full max-w-sm aspect-square rounded-lg overflow-hidden border-2 border-gray-300">
+              <img
+                src="https://lh3.googleusercontent.com/d/1d6A4HPs2iJgXOy43-3Ao-_jGfdMljoa5"
+                alt="Achint Tiwari - Professional Headshot"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
