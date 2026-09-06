@@ -21,11 +21,11 @@ export default function About() {
           {/* Content */}
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              I'm a Software Engineer and AI developer passionate about building intelligent systems and secure, scalable applications. Currently exploring the intersection of Google Cloud, generative AI, and developer tools—including building projects like <span className="font-semibold">Achintisalive</span> (a Socratic AI tutor for secure coding).
+              I&apos;m a Software Engineer and AI developer passionate about building intelligent systems and secure, scalable applications. Currently exploring the intersection of Google Cloud, generative AI, and full-stack development to solve real-world problems.
             </p>
 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              When I'm not shipping projects, you'll find me solving algorithmic challenges on <span className="font-semibold">LeetCode</span>, competing on <span className="font-semibold">Kaggle</span>, or writing technical breakdowns on <span className="font-semibold">DEV Community</span>. Always open to collaborating on open-source tools, AI challenges, and impactful software.
+              When I&apos;m not shipping projects, you&apos;ll find me solving algorithmic challenges on <span className="font-semibold">LeetCode</span>, competing on <span className="font-semibold">Kaggle</span>, or contributing to open-source projects.
             </p>
 
             {/* Social Links */}
