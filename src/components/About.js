@@ -14,7 +14,7 @@ export default function About() {
           <div className="flex justify-center">
             <div className="w-full max-w-sm aspect-square rounded-lg overflow-hidden border-2 border-gray-300">
               <Image
-                src="https://drive.google.com/uc?export=view&id=1d6A4HPs2iJgXOy43-3Ao-_jGfdMljoa5"
+                src="https://res.cloudinary.com/apjsz95h/image/upload/f_auto,q_auto/whitemefront"
                 alt="Achint Tiwari - Professional Headshot"
                 width={400}
                 height={400}
