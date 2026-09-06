@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function About() {
@@ -12,10 +13,14 @@ export default function About() {
           {/* Professional Headshot */}
           <div className="flex justify-center">
             <div className="w-full max-w-sm aspect-square rounded-lg overflow-hidden border-2 border-gray-300">
-              <img
+              <Image
                 src="https://drive.google.com/uc?export=view&id=1d6A4HPs2iJgXOy43-3Ao-_jGfdMljoa5"
                 alt="Achint Tiwari - Professional Headshot"
+                width={400}
+                height={400}
+                priority
                 className="w-full h-full object-cover"
+                unoptimized
               />
             </div>
           </div>
